@@ -1,10 +1,14 @@
-# AI-Document-Q-A-Project
-A simple Python-based application that answers questions from documents.
+# RAG with Astra DB (Vector Search)
 
-## Tech
-- Python
-- Flask
-- LLM API
+This project implements a Retrieval-Augmented Generation (RAG) pipeline using Astra DB as the vector store.
 
-## Status
-Initial version
+## How to Run
+1. Install requirements:
+   pip install -r requirements.txt
+
+2. Set environment variables:
+   ASTRA_DB_API_ENDPOINT=...
+   ASTRA_DB_APPLICATION_TOKEN=...
+   OPENAI_API_KEY=...
+
+3. Run the notebook in Jupyter / Colab.
